@@ -1,7 +1,38 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
 body {
     background: black url(imagens/fundo-madeira.jpg) center center/cover no-repeat fixed;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 
+.image {
+    width: 15rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px 10px;
+    flex-direction: column;
+}
+
+.icons {
+    width: 3rem;
+    border-radius: 25px;
+}
